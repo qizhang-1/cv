@@ -1,0 +1,205 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.3in]{geometry}
+\usepackage[
+pdftitle = ``Resume of QI ZHANG'',
+pdfauthor = ``QI ZHANG''
+]{hyperref}
+\usepackage{amsmath,amssymb,amsfonts,array,tabularx,enumitem,textcomp,titlesec,parskip,times,txfonts,pifont}
+\usepackage{titlesec} 
+\usepackage{fancyhdr}
+\pagestyle{empty}
+\setlength{\parskip}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\floatsep}{0pt}
+\setlength{\textfloatsep}{0pt}
+\setlength{\intextsep}{0pt}
+\setlist{nolistsep}
+\newcommand{\sep}{\ding{118}\;}
+\newcommand{\QZ}{\textbf{Q. Zhang}}
+\newcommand{\DJB}{D. Bodony}
+
+\begin{document}
+
+\begin{center}
+{\Huge\textbf{\textsc{{Qi Zhang}}}} \\[5pt]
+1600 Wickersham Ln. Apt 2089, Austin, TX 78741 $\text{ }\bullet\text{ }$ (716) 238-1959 $\text{ }\bullet\text{ }$  bl1008@gmail.com $\text{ }\bullet\text{ }$ U.S. Permanent Resident 
+\end{center}
+ \rule[0.8em]{\textwidth}{0.5pt} \\[-11pt]
+ \rule[0.8em]{\textwidth}{0.5pt} \\[0pt]
+%--- PROFESSIONAL PROFILE
+\textbf{\textsc{\LARGE{Profile Summary}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-20pt]
+\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
+%\item Expertise in of fluid dynamics, aerodynamics, aeroacoustics, control theory and differential equations 
+\item Expertise in algorithms, parallel programming and objective and oriented programming
+\item Proficiency in Java, C/C++, Fortran and Python programming languages
+\item Excellent in team work, analytical thinking and difficult problem solving skills
+\item Excellent in machine learning algorithms, knowledge of Hadoop, Spark and other distributed computing softwares
+\item Proficiency with SDLC tools: git and SVN
+\end{itemize}
+%\vspace{4pt}
+%\textbf{\textsc{\LARGE{Highlighted Skills}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-18pt]
+%\vspace{-4pt}
+%\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
+%\item
+%C/C++, 
+%Fortran, 
+%Java,
+%Python, 
+%Matlab, 
+%Unix Shell Scripting, 
+%\LaTeX,
+%SDLC tools: git and SVN
+%\end{itemize}
+\vspace{4pt}
+
+%--- EDUCATION
+\textbf{\textsc{\LARGE{Education}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-16pt]
+
+\begin{tabularx}{\textwidth}{>{\raggedright}X>{\raggedleft}p{0.16\textwidth}}
+\textbf{University of Illinois at Urbana-Champaign, Urbana, IL} \\
+\textbf{Ph.D.} in Aerospace Engineering $\quad\qquad$ Research Topic: \textit{Computational Science and Engineering}\\%Minor in Computational Science and Engineering 
+Thesis: \emph{Direct Numerical Simulation and Analytical Modeling of 3-D Honeycomb Acoustic Liners.} 
+&
+May 2014\\
+\textbf{GPA 4.00/4.00}
+\tabularnewline[4pt]
+%\textbf{University of Illinois at Urbana-Champaign, Urbana, IL} \\
+%\textbf{M.S.} in Aerospace Engineering 
+%%\emph{Thesis: Numerical Simulation of 2-D Acoustic Liners with High Speed Grazing Flow. }
+%&
+%December 2009\\
+%\textbf{GPA 3.98/4.00}
+%\tabularnewline[4pt]
+\textbf{Fudan University, Shanghai, China} \\
+\textbf{B.S.} in Theoretical and Applied Mechanics %\\
+% \textbf{Standardized Test Scores:} GRE -- Verbal: 650/800, Quantitative: 800/800. TOEFL -- 112/120.
+&
+July 2007 \\
+\textbf{GPA 3.89/4.00}
+\end{tabularx}
+
+\vspace{6pt}
+
+%--- EXPERIENCE
+\textbf{\textsc{\LARGE{Professional Experience}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-16pt]
+%--- Employment
+%\textbf{\textsc{\LARGE{Employment}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-16pt]
+\\
+\begin{tabularx}{\textwidth}{>{\raggedright}X>{\raggedleft}p{0.25\textwidth}}
+\textbf{Institute of Computational Engineering Sciences, University of Texas at Austin } \\
+{\em Research Associate}\\
+&
+Austin, TX \\
+March 2016 -- Present
+\tabularnewline[-12pt]
+\multicolumn{2}{p{0.98\textwidth}}{
+\textbf{Project: Machine learning approach in turbulence wall-pressure modeling}
+\begin{itemize}[leftmargin = 16pt]
+\item \textbf{SU2 software developer} (SU2 is an open source code for computational fluid dynamics on parallel clusters) 
+\item Implemented DES and LES/DES hybrid turbulent wall models and designed unit tests (C/C++)
+\item Wrote various post-processing tools (Python \& Java) for data parsing and statistical analysis
+\item Speeded up high-fidelity simulation data generation 100+ times for machine learning studies at the Sandia National Lab  
+\end{itemize}
+}
+\\
+\vspace{-20pt}
+\textbf{PSAAP2 Center, University of Illinois at Urbana-Champaign } \\
+{\em Research Associate} \\
+&
+Urbana, IL \\
+March 2014 -- March 2016 
+\tabularnewline[-12pt]
+\multicolumn{2}{p{0.98\textwidth}}{
+\textbf{Project: Performance Analysis and Optimization of a High-Order MPI CFD Application}
+\begin{itemize}[leftmargin = 16pt]
+\item Analyzed the performance of the in-house MPI large-scale parallel CFD solver using TAU and PAPI (hardware counters)
+\item Identified performance bottlenecks to be large quantity of memory accesses and the lack of vectorization
+\item Optimized the CFD codes and obtained a 50\%+ reduction in the number of memory loads Intel Xeon E5-2680 processor
+\end{itemize}
+\textbf{Project: Exascale Simulation of Plasma-Coupled Combustion (20\,M USD funding)}
+\begin{itemize}[leftmargin = 16pt]
+\item Developed a parallel 2-D/3-D compressible Navier-Stokes equation solver, 5,000+ lines with multiple features
+\item Improved large-scale data post processing 5+ times faster using novel algorithms in filtering non-physical data 
+\item Jet-in-cross flow simulation results highlighted on the 2014 DOE PSAAP2 annual report 
+\end{itemize}
+\textbf{Project: Actuator type and placement for jet noise reduction}
+\begin{itemize}[leftmargin = 16pt]
+\item Developed, tested and debugged a high-order finite volume numerical toolkit, 3,000+ lines
+\item Performed high-speed jet engine and aerodynamics flow simulations in different Linux supercomputing platforms
+\item Analyzed the simulation data in both time and frequency domain via Fast Fourier Transform (FFT)
+\end{itemize}
+}
+\\
+\vspace{-10pt}
+\textbf{Department of Aerospace Engineering, University of Illinois at Urbana-Champaign } \\
+{\em Research Assistant} \\
+&
+Urbana, IL \\
+August 2008 -- March 2014
+\tabularnewline[-12pt]
+\multicolumn{2}{p{0.98\textwidth}}{
+\textbf{Project: Liner eduction methodology using large-eddy simulation}
+\begin{itemize}[leftmargin = 16pt]
+\item Analyzed the simulation data in both time and frequency domain via Fast Fourier Transform (FFT)
+\item Designed a highly-optimized ODE driven reduced-order models for acoustic liner in noise control
+\end{itemize}
+}
+\tabularnewline[-10pt]
+{{\em Teaching Assistant and Class Tutor}} (Data Structure and Algorithms) \\
+&
+September 2011 -- May 2014
+\tabularnewline[-20pt]
+\multicolumn{2}{p{0.98\textwidth}}{
+\begin{itemize}[leftmargin = 16pt]
+\item Instructed and provided guidance for the students to their class projects  (Java \& C/C++)
+\end{itemize}
+}
+\end{tabularx}
+\vspace{-4pt}
+
+%--- HONORS & AWARDS
+\textbf{\textsc{\LARGE{Publications, Honors \& Awards}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-18pt]
+
+\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
+\item 5 top journal articles and 15 conference proceedings (150+ citations) 
+\item 2016 Institute of Computational Engineering Sciences Postdoc Fellowship (ranked 1st)
+%\item 2009 AIAA student conference Region III (Midwest) Winner 
+%\item 2004 -- 2007 People's Fellowship from Fudan University First Prize (top 3\%)
+\end{itemize}
+
+\vspace{2pt}
+%%--- LEADERSHIP
+%\textbf{\textsc{\LARGE{Visa Status}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-18pt]
+%\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
+%\item U.S. Permanent Resident
+%%\item 2004 -- 2006 People's Fellowship 2nd Prize
+%\end{itemize}
+%
+
+%--- ACTIVITIES
+%\textbf{\textsc{\LARGE{Memberships}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-20pt]
+
+%American Physical Society \sep
+%American Society of Mechanical Engineers \sep
+%American Institute of Aeronautics and Astronautics \sep
+%Linux Users' Group 
+%National Service Scheme (India), 2007--2008 \sep
+%Physics Society Chennai \sep
+%Web Design \sep
+%Open Source Programming\sep
+%Master Swimming Club
+
+\end{document}
+
+
+% \item R.~Vishnampet, J.~B.~Freund \& D.~Bodony. Navier-Stokes adjoint accuracy for aeroacoustic flow control and analysis. {\em APS
+%     Meeting Abstracts}, \textbf{57}, 2012.
+% \item R.~Vishnampet \& D.~Saintillan. Concentration instability of sedimenting spheres in a second-order fluid. {\em Phys. Fluids}, \textbf{24}, 2012.
+% \item A.~Narasimhan \& R.~Vishnampet. Effect of choroidal blood flow on transscleral retinal drug delivery using a porous medium
+%   model. {\em Int. J. Heat Mass Transfer}, \textbf{55}:5665--5672, 2012.
+% \item R.~Vishnampet, A.~Narasimhan, \& V.~Babu. High Rayleigh Number Natural Convection Inside 2D Porous Enclosures Using the
+%   Lattice Boltzmann Method. {\em J. Heat Transfer}, \textbf{133}:062501, 2011.
+% \item V.~Deepesh, R.~J.~Pardikar, A.~Sricharan, V.~G.~Ramanathan, S.~Chakravarthy, \& K.~Balasubramaniam. Automatic Defect Recognition System for Real Time
+% Radioscopy of Hancock Valve Welds. {\em Journal of Nondestructive Testing \& Evaluation}, \textbf{9}:1--6, 2010.
+
+% \end{enumerate}
