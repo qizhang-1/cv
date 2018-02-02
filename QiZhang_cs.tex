@@ -1,5 +1,5 @@
-\documentclass[11pt]{article}
-\usepackage[letterpaper,margin=0.64in]{geometry}
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
 \usepackage[
 pdftitle = ``Resume of QI ZHANG'',
 pdfauthor = ``Charlie  ZHANG''
@@ -21,120 +21,87 @@ pdfauthor = ``Charlie  ZHANG''
 \begin{document}
 
 \begin{center}
-{\huge\textbf{\textsc{{Qi Zhang}}}} \\[5pt]
-\textbf{Cell}: (716) 238-1959 $\text{ }\quad\bullet\bullet\bullet\bullet\bullet\quad\text{ }$ \textbf{E-mail}: \texttt{qi@ices.utexas.edu} \quad$\text{ }\bullet\bullet\bullet\bullet\bullet\quad\text{  }$ \textbf{Visa status}: Green Card 
+{\huge\textbf{\textsc{{Qi  Zhang}}}} \\[5pt]
+%\textbf{E-mail}: \texttt{bl1008@gmail.com} \quad$\bullet\bullet\bullet\quad$    \textbf{Github}: \url{https://github.com/qizhang-1}  \\
+%\textbf{Cell}: \texttt{(716)238-1959} $\quad\bullet\bullet\bullet\quad$  \textbf{LinkedIn}: \url{https://www.linkedin.com/in/qizhang-1}
+
+\small{ \texttt{bl1008@gmail.com}  $\quad\bullet\bullet\bullet\quad$\texttt{(716)\,238-1959} $\quad\bullet\bullet\bullet\quad$  \url{linkedin.com/in/qz001}  $\quad\bullet\bullet\bullet\quad$ \url{github.com/qizhang-1}}
 \end{center}
  \rule[0.8em]{\textwidth}{0.5pt} \\[-11pt]
  \rule[0.8em]{\textwidth}{0.5pt} \\[0pt]
-%--- PROFESSIONAL PROFILE
-\textbf{\textsc{\LARGE{Profile Summary}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-20pt]
-\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
-\item Software engineer bringing 2+ years experience in academia with multiple programming languages.
-\item Knowledge of the different machine learning algorithms with various applications. 
-\item Supportive and enthusiastic team player dedicated to efficient difficult problem solving.
-\item Willing to take ownership of core components.
-\end{itemize}
-\vspace{12pt}
-\textbf{\textsc{\LARGE{Highlighted Skills}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-12pt]
-\begin{tabularx}{\textwidth}{>{\raggedright}X>{\raggedleft}p{0.5\textwidth}}
-\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
-\item Parallel, Object Oriented Programming 
-\item Java, C/C++, Python, Fortran, Scala, MySQL
-\item Hadoop, Spark 
-\end{itemize}
-&
-\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
-\item Various machine learning algorithms
-\item Machine learning APIs (i.e. sklearn, TensorFlow)
-\item SDLC tools: git and SVN
-\end{itemize}
-\tabularnewline[-12pt]
-\end{tabularx}
-\vspace{6pt}
-
-
 %--- EXPERIENCE
-\textbf{\textsc{\LARGE{Professional Experience}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-16pt]
+\textbf{\textsc{\LARGE{Experience}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-20pt]
 %--- Employment
 %\textbf{\textsc{\LARGE{Employment}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-16pt]
 \\
 \begin{tabularx}{\textwidth}{>{\raggedright}X>{\raggedleft}p{0.27\textwidth}}
-\textbf{Institute of Computational Engineering Sciences, University of Texas} \\
-{\em Software Engineer and Research Associate}\\
+\textbf{Insight Data Engineering} \\
+{\em Fellow}\\
 &
-Austin, TX \\
-March 2016 -- September 2017
-\tabularnewline[-12pt]
+New York, NY \\
+Jan. 2018 -- Present
+\tabularnewline[-20pt]
 \multicolumn{2}{p{0.98\textwidth}}{
-\textbf{Project: Machine learning feature selection in turbulence wall-pressure modeling}
-\begin{itemize}[leftmargin = 16pt]
-\item Designed and implemented multiple features for SU2 code (CFD code) on parallel clusters
-\item Designed and implemented different unit tests (C/C++)
-\item Implemented various post-processing tools (Python \& Java) for data parsing and statistical analysis
-\item Speeded up data generation 100+ times for machine learning studies at the Sandia National Lab  
+\begin{itemize}[leftmargin = 24pt]
+\item Designed an effective purchase policy limit model using connected component algorithm in GraphX to detect violator lists in a 10M daily transactions record
+\item Built end-to-end data pipeline and ETL processes for e-commerce transaction records using Spark SQL
+\item Designed streaming process via Kafka and Spark streaming for data ingestion and consumption
+\item Used Flask to create analytics dashboards and display violator lists
 \end{itemize}
 }
 \\
-\vspace{-12pt}
-\textbf{PSAAP2 Center, University of Illinois } \\
-{\em Software Engineer and Research Associate} \\
+\vspace{-20pt}
+\textbf{Institute of Computational Engineering Sciences} \\
+{\em Software Engineer and Research Associate}
 &
-Urbana, IL \\
-May 2014 -- March 2016 
-\tabularnewline[-12pt]
+\vspace{-20pt}
+Austin, TX \\
+Mar. 2016 -- Dec. 2017
+
+\tabularnewline[-20pt]
 \multicolumn{2}{p{0.98\textwidth}}{
-\textbf{Project: Performance Analysis and Optimization of a High-Order MPI CFD Application}
-\begin{itemize}[leftmargin = 16pt]
-\item Analyzed the performance of the MPI large-scale parallel CFD solver using TAU and PAPI 
-\item Identified performance bottlenecks to be large quantity of memory accesses and the lack of vectorization
-\item Optimized the CFD codes and obtained a 50\%+ reduction in the number of memory loads 
+\begin{itemize}[leftmargin = 24pt]
+\item Designed and implemented multiple features for open-source Computational Fluid Dynamics tool (Stanford University Code 2) on parallel clusters (C/C++)
+\item Speeded 5+ times of simulation data (2.4TB) ETL process for machine learning studies  (Python)
+\item Implemented various post-processing tools for turbulence data  statistical analysis (Python, Java)
 \end{itemize}
-\textbf{Project: Exascale Simulation of Plasma-Coupled Combustion}
-\begin{itemize}[leftmargin = 16pt]
-\item Developed a parallel 2-D/3-D compressible Navier-Stokes equation solver, 5,000+ lines with multiple features
-\item Improved large-scale data post processing 5+ times faster using novel algorithms in filtering non-physical data 
-\item Jet-in-cross flow simulation results highlighted on the 2014 DOE PSAAP2 annual report 
-\end{itemize}
-\textbf{Project: Actuator type and placement for jet noise reduction}
-\begin{itemize}[leftmargin = 16pt]
-\item Developed, tested and debugged a high-order finite volume numerical toolkit, 3,000+ lines
-\item Performed high-speed jet engine and aerodynamics flow simulations in different supercomputing platforms
-\item Analyzed the simulation data in both time and frequency domain via Fast Fourier Transform (FFT)
+}
+\\
+\vspace{-20pt}
+\textbf{PSAAP2 Center, University of Illinois } \\
+{\em Research Associate} \\
+&
+\vspace{-20pt}
+Urbana, IL \\
+May. 2014 -- Feb. 2016 
+\tabularnewline[-20pt]
+\multicolumn{2}{p{0.98\textwidth}}{
+\begin{itemize}[leftmargin = 24pt]
+\item Developed and implemented a parallel Navier-Stokes and its adjoint equations solver with an integration of Gradient Descent Methods with generalized minimal residual method (GMRES)
+\item Identified the performance bottlenecks for the solver and optimized the code via vectorization and better cache utilization with a 1.8 times speed up scaled up to 8192 cores
+\item Established a high-fidelity time-domain  impedance prediction model via combination of non-linear partial differential equation and linear regression ({4 journals with 180+ citations})
 \end{itemize}
 }
 \end{tabularx}
 
-%\\
-%\vspace{-10pt}
-%\textbf{Department of Aerospace Engineering, University of Illinois at Urbana-Champaign } \\
-%{\em Research Assistant} \\
-%&
-%Urbana, IL \\
-%August 2008 -- March 2014
-%\tabularnewline[-12pt]
-%\multicolumn{2}{p{0.98\textwidth}}{
-%\textbf{Project: Liner eduction methodology using large-eddy simulation}
-%\begin{itemize}[leftmargin = 16pt]
-%\item Analyzed the simulation data in both time and frequency domain via Fast Fourier Transform (FFT)
-%\item Designed a highly-optimized ODE driven reduced-order models for acoustic liner in noise control
-%\end{itemize}
-%}
-%\tabularnewline[-10pt]
-%{{\em Teaching Assistant and Class Tutor}} (Data Structure and Algorithms) \\
-%&
-%September 2011 -- May 2014
-%\tabularnewline[-20pt]
-%\multicolumn{2}{p{0.98\textwidth}}{
-%\begin{itemize}[leftmargin = 16pt]
-%\item Instructed and provided guidance for the students to their class projects  (Java \& C/C++)
-%\end{itemize}
-%}
-\textbf{\textsc{\LARGE{Education}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-16pt]\\
+\vspace{-6pt}
+\textbf{\textsc{\LARGE{Independent Project}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-7pt]
+\textit{Statoil\,/\,C-CORE Iceberg Classifier Challengle (Kaggle Competition)}
+\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=32pt]
+\item Built a data pipeline and applied Convolution Neural Network in Tensorflow for iceberg detection 
+\item Applied random image rotation, shifts and other various data augmentation techniques to improve prediction score
+\end{itemize}
+
+\vspace{8pt}
+
+
+
+\textbf{\textsc{\LARGE{Education}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-20pt]\\
 \begin{tabularx}{\textwidth}{>{\raggedright}X>{\raggedleft}p{0.16\textwidth}}
-\textbf{University of Illinois at Urbana-Champaign, Urbana, IL} \\
-\textbf{Ph.D.} in Aerospace Engineering (Focus: {Computational Science and Engineering})\\%Minor in Computational Science and Engineering 
+\textbf{University of Illinois at Urbana-Champaign} \\
+\textbf{Ph.D.} in Aerospace Engineering ({\textbf{Computational Science and Engineering}})\\%Minor in Computational Science and Engineering 
 &
-\textbf{GPA 4.00/4.00}
+\text{Urbana, IL}
 \tabularnewline[-8pt]
 %\textbf{University of Illinois at Urbana-Champaign, Urbana, IL} \\
 %\textbf{M.S.} in Aerospace Engineering 
@@ -143,24 +110,32 @@ May 2014 -- March 2016
 %December 2009\\
 %\textbf{GPA 3.98/4.00}
 %\tabularnewline[4pt]
-\textbf{Fudan University, Shanghai, China} \\
-\textbf{B.S.} in Theoretical and Applied Mechanics  (Minor: Computer Science)%\\
+\textbf{Fudan University} \\
+\textbf{B.S.} in Theoretical and Applied Mechanics  (Minor: \textbf{Computer Science})%\\
 % \textbf{Standardized Test Scores:} GRE -- Verbal: 650/800, Quantitative: 800/800. TOEFL -- 112/120.
 &
-\textbf{GPA 3.89/4.00}
+\text{Shanghai, China}
 \end{tabularx}
 
-\vspace{6pt}
+\vspace{8pt}
+\textbf{\textsc{\LARGE{Skills}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-22pt]
+\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=32pt]
+\item \textbf{Programming Languages}: C/C++, Java, Python, Scala, Javascript, SQL, Fortran, MATLAB
+\item \textbf{Distributed Systems}: Hadoop, Spark, Kafka, Cassandra, S3, Neo4j, Redis, AWS
+\item \textbf{Data Science Tools}: Pandas, NumPy, SciPy, Scikit-learn, TensorFlow, Keras
+\end{itemize}
+
+
+
 
 %--- HONORS & AWARDS
-\textbf{\textsc{\LARGE{Publications, Honors \& Awards}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-18pt]
-
-\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
-\item 5 top journal articles and 15 conference proceedings (150+ citations) 
+%\textbf{\textsc{\LARGE{Publications, Honors \& Awards}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-18pt]
+%\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
+%\item 5 top journal articles and 15 conference proceedings (150+ citations) 
 %\item 2016 Institute of Computational Engineering Sciences Postdoc Fellowship (ranked 1st)
 %\item 2009 AIAA student conference Region III (Midwest) Winner 
 %\item 2004 -- 2007 People's Fellowship from Fudan University First Prize (top 3\%)
-\end{itemize}
+%\end{itemize}
 %%--- LEADERSHIP
 %\textbf{\textsc{\LARGE{Visa Status}}} \\ \rule[0.8em]{\textwidth}{0.5pt} \\[-18pt]
 %\begin{itemize}[topsep=0pt,partopsep=0pt,leftmargin=16pt]
